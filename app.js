@@ -16,4 +16,4 @@ bot.on("guildMemberAdd", function(member) {
   member.addRole(member.guild.roles.find("name","Community"));
 });
 
-bot.login(procress.env.BOT_TOKEN);
+bot.login(process.env.BOT_TOKEN);
