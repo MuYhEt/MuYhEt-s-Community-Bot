@@ -13,11 +13,11 @@ bot.on("ready", () => {
 });
 
 bot.on("guildMemberAdd", function(member) {
-  member.guild.channels.find("name","main_chat").send(":new: | "+ member.toString() + " **Has been joined to our server!** Welcome to our server! Do not forget to read the "+"<#359050267960016906>"+" and the rules. If you have any questions, ask the support team! ");
+  member.guild.channels.find("name","main_chat").send(":new: | "+ member.toString() + " **Has joined the our server!** Welcome to our server! Do not forget to read the "+"<#359050267960016906>"+" and the rules. If you have any questions, ask the support team! ");
   member.addRole(member.guild.roles.find("name","Community"));
 });
 bot.on("guildMemberRemove", function(member) {
-  member.guild.channels.find("name","main_chat").send(":slight_frown: | "+ member.toString() + " **Has left from our server...**");
+  member.guild.channels.find("name","main_chat").send(":slight_frown: | "+ member.toString() + " **Has left from the server...**");
 });
 
 bot.on('message', message => {
