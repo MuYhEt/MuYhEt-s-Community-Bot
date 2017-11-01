@@ -3,6 +3,7 @@ var bot = new Discord.Client();
 var fs = require("fs");
 ////////////////////////////////////////////////////////////////////////////////
 var userData = JSON.parse(fs.readFileSync('Storage/userData.json', 'utf8'));
+var commandlist = fs.readFileSync('Storage/Commands.txt', 'utf8');
 
 ////////////////////////////////////////////////////////////////////////////////
 const settings = require('./settings.json');
@@ -28,6 +29,9 @@ bot.on('message', message => {
   var msg = message.content.toUpperCase();
   var prefix = settings.prefix;
 ////////////////////////////////////////
+if (msg === prefix+"HELP" || msg === prefix+"COMMANDS") {
+  message.channel.send(commandlist)
+}
 if (msg === prefix+"PING"){
     message.channel.send('Pong!')
 }
