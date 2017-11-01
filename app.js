@@ -8,7 +8,7 @@ const settings = require('./settings.json');
 
 bot.on("ready", function(message) {
   console.log("Ready");
-  bot.user.setGame("24/7 | MuYhEt's Community Bot")
+  bot.user.setGame("24/7 | MuYhEt's Community Bot");
 });
 
 bot.on("guildMemberAdd", function(member) {
