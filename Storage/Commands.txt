@@ -1,0 +1,4 @@
+`PREFIX: $`
+
+Commands:
+`ping` - Get the bot's response time.
