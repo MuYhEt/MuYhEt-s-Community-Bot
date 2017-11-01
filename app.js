@@ -1,5 +1,8 @@
 const Discord = require('discord.js');
 var bot = new Discord.Client();
+var fs = require("fs");
+////////////////////////////////////////////////////////////////////////////////
+var userData = JSON.parse(fs.readFileSync('Storage/userData.json', 'utf8'));
 
 ////////////////////////////////////////////////////////////////////////////////
 const settings = require('./settings.json');
@@ -21,16 +24,20 @@ bot.on("guildMemberRemove", function(member) {
 });
 
 bot.on('message', message => {
-  if (message.content.startsWith(settings.prefix + 'ping')) {
-    startTime = Date.now();
-
-    message.channel.send(`...`).then((message) => {
-    endTime = Date.now();
-    let ping = Math.round(endTime - startTime)
-    let rounded = ping / 1000
-    message.edit(`:white_check_mark:  **| PONG!** - \`${ping}ms\` | \`${rounded}s\``)
+  var sender = message.author;
+  var msg = message.content.toUpperCase();
+  var prefix = settings.prefix;
+////////////////////////////////////////
+if (msg === prefix+"PING"){
+    message.channel.send('Pong!')
+}
+  if(!userData[sender.id]) userData[sender.id] = {
+    messagesSent: 0
+  }
+userData[sender.id].messagesSent++;
+  fs.writeFile("Storage/userData.json", JSON.stringify(userData), (err) => {
+    if (err) console.error(err);
   });
-}});
 
-
+});
 bot.login(process.env.BOT_TOKEN);
