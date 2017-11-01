@@ -16,4 +16,16 @@ bot.on("guildMemberAdd", function(member) {
   member.addRole(member.guild.roles.find("name","Community"));
 });
 
+bot.on('message', message => {
+  if (message.content.startsWith(settings.prefix + 'ping')) {
+    startTime = Date.now();
+
+    message.channel.sendMessage(`...`).then((message) => {
+    endTime = Date.now();
+    let ping = Math.round(endTime - startTime)
+    let rounded = ping / 1000
+    message.edit(`:white_check_mark:  **| PONG!** - \`${ping}ms\` | \`${rounded}s\``)
+  });
+}});
+
 bot.login(process.env.BOT_TOKEN);
