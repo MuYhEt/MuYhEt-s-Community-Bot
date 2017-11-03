@@ -42,10 +42,31 @@ if (msg === prefix+"PING"){
   if (message.channel.id === "375808290648621058") {
   message.delete()
 }
-
+  
+  
+  
+// Add Roles
   if (msg === prefix+"BLUE"){
   if (message.channel.id === "375808290648621058"){
     message.member.addRole(message.guild.roles.find('name','Blue'))
+  }
+}
+
+  if (msg === prefix+"GREEN"){
+  if (message.channel.id === "375808290648621058"){
+    message.member.addRole(message.guild.roles.find('name','Green'))
+  }
+}
+  
+  if (msg === prefix+"PINK"){
+  if (message.channel.id === "375808290648621058"){
+    message.member.addRole(message.guild.roles.find('name','Pink'))
+  }
+}
+  
+  if (msg === prefix+"YELLOW"){
+  if (message.channel.id === "375808290648621058"){
+    message.member.addRole(message.guild.roles.find('name','Yellow'))
   }
 }
   
