@@ -35,6 +35,20 @@ if (msg === prefix+"HELP" || msg === prefix+"COMMANDS") {
 if (msg === prefix+"PING"){
     message.channel.send('Pong!')
 }
+  
+  
+  
+// Colored Roles
+  if (message.channel.id === "375808290648621058") {
+  message.delete()
+}
+  
+  
+  
+  
+  
+  
+  
   if(!userData[sender.id]) userData[sender.id] = {
     messagesSent: 0
   }
