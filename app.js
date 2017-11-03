@@ -44,7 +44,7 @@ if (msg === prefix+"PING"){
 }
 
   if (msg === prefix+"BLUE"){
-  if (message.channel.id === "371434623701483520"){
+  if (message.channel.id === "375808290648621058"){
     message.member.addRole(message.guild.roles.find('name','Blue'))
   }
 }
