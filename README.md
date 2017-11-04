@@ -4,9 +4,15 @@
 ## GUIDE
 - [COMMAND LIST](https://github.com/MuYhEt/MuYhEt-s-Community-Bot#command-list)
 
+## COMMANDS
+
 ## COMMAND LIST
+**Help**
 - [x] Working.
 - [ ] Not Working.
+
+
+
 
 
 - [x] Ping - _This function checks the response time of the bot_.
