@@ -5,7 +5,7 @@
 
 ## GUIDE
 - [COMMAND LIST](#commands)
-- [SELF PROMOTION](#self promotion)
+- [SELF PROMOTION](#self-promotion)
 
 ## COMMANDS
 > USEFUL COMMANDS
