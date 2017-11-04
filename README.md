@@ -5,16 +5,8 @@
 - [COMMAND LIST](https://github.com/MuYhEt/MuYhEt-s-Community-Bot#command-list)
 
 ## COMMANDS
-**Help**
-- [x] Working.
-- [ ] Not Working.
+> USEFUL COMMANDS
 
-
-> COMMAND LIST
-
-
-
-
-
-- [x] Ping - _This function checks the response time of the bot_.
-- [ ] Dice - _This function generates a random number from 1 to 6, similar a dice_.
+Working Commands | Description | Usage
+-----------------|--------------|-------
+`$ping` | This function calculates the response time of the bot **(In case the host is not very active)**. **Require use in #bot-commands channel.** | `$ping`
