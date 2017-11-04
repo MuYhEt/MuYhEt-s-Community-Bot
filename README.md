@@ -32,8 +32,12 @@ Commands | Description | Usage | Working
 [img]: https://cdn.discordapp.com/attachments/359090812723658783/376457929097740289/Join_Discord.png
 
 ## SELF PROMOTION
+> SKILLS
+`$builder` | This function will give you access to a channel and a role for builders. **You must be active on the server (Requires use on #bot).** | `$builder` | No
+`$scripter` | This function will give you access to a channel and a role for scripters. **You must be active on the server (Requires use on #bot).** | `$scripter` | No
+`$graphic-artist` `$ga` | This function will give you access to a channel and a role for graphic artists. **You must be active on the server (Requires use on #bot).** | `$ga` | No
 
->COLORED ROLES
+>COLORED
 
 Commands | Description | Usage | Working
 ---------|-------------|-------|---------
