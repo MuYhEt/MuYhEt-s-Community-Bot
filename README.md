@@ -6,6 +6,7 @@
 ## GUIDE
 - [COMMAND LIST](#commands)
 - [SELF PROMOTION](#self-promotion)
+- [ADMIN COMMANDS](#admin-commands)
 
 ## COMMANDS
 > USEFUL
