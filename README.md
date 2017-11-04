@@ -5,6 +5,9 @@
 - [COMMAND LIST](https://github.com/MuYhEt/MuYhEt-s-Community-Bot#command-list)
 
 ## COMMAND LIST
+- [x] Working.
+- [ ] Not Working.
+
 
 - [x] Ping - _This function checks the response time of the bot_.
 - [ ] Dice - _This function generates a random number from 1 to 6, similar a dice_.
