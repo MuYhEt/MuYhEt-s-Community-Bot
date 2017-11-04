@@ -1,5 +1,5 @@
 # MuYhEt's Community Bot
-## This bot was made for use in a discord community, being private!
+**This bot was made for use in a discord community, being private!**
 
 [![img][img]](https://discord.gg/Tn9dbKT)
 
