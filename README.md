@@ -9,9 +9,9 @@
 ## COMMANDS
 > USEFUL COMMANDS
 
-Working Commands | Description | Usage
------------------|--------------|-------
-`$ping` | This function calculates the response time of the bot **(In case the host is not very active)**. **Require use in #bot-commands channel.** | `$ping`
+Working Commands | Description | Usage | Working
+-----------------|-------------|-------|--------
+`$ping` | This function calculates the response time of the bot **(In case the host is not very active)**. **Require use in #bot-commands channel.** | `$ping`| No
 
 
 Working Commands | Description | Usage
