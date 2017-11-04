@@ -5,6 +5,7 @@
 
 ## GUIDE
 - [COMMAND LIST](#commands)
+- [SELF PROMOTION](#self promotion)
 
 ## COMMANDS
 > USEFUL COMMANDS
@@ -30,8 +31,16 @@ Commands | Description | Usage | Working
 
 [img]: https://cdn.discordapp.com/attachments/359090812723658783/376457929097740289/Join_Discord.png
 
->ROLES
+## SELF PROMOTION
+
+>COLORED ROLES
 
 Commands | Description | Usage | Working
 ---------|-------------|-------|---------
-`$blue`| This function shows a redirect link to you donate, to help our work. **Requires Mee6 level 1 and #roles channel.** | `$blue` | Yes
+`$blue`| This function will give you a role with the color blue, this changing the color of your name. **Requires Mee6 level 1 and #roles channel.** | `$blue` | Yes
+`$yellow`| This function will give you a role with the color yellow, this changing the color of your name. **Requires Mee6 level 1 and #roles channel.** | `$yellow` | Yes
+`$green`| This function will give you a role with the color green, this changing the color of your name. **Requires Mee6 level 1 and #roles channel.** | `$green` | Yes
+`$pink`| This function will give you a role with the color pink, this changing the color of your name. **Requires Mee6 level 1 and #roles channel.** | `$pink` | Yes
+`$red`| This function will give you a role with the color red, this changing the color of your name. **Requires Mee6 level 1 and #roles channel.** | `$red` | No
+`$white`| This function will give you a role with the color white, this changing the color of your name. **Requires Mee6 level 1 and #roles channel.** | `$white` | No
+`$black`| This function will give you a role with the color black, this changing the color of your name. **Requires Mee6 level 1 and #roles channel.** | `$black` | No
