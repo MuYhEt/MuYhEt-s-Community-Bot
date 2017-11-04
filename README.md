@@ -4,6 +4,6 @@
 #### If you are a member at this community and want know our commands, check this list:
 **REMEMBER!** Prefix: `$`
 
-**Command List**
+## COMMAND LIST
 
 - [x] Ping - _This function checks the response time of the bot_.
