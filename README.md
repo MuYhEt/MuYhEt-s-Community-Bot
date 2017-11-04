@@ -11,19 +11,21 @@
 
 Commands | Description | Usage | Working
 ---------|-------------|-------|---------
-`$ping` | This function calculates the response time of the bot **(In case the host is not very active)**. **Require use in #bot-commands channel.** | `$ping`| Yes
+`$ping` | This function calculates the response time of the bot **(In case the host is not very active)**. **Requires use in #bot-commands channel.** | `$ping`| Yes
 
 
->ROLEPLAY
+>FUN
 
 Commands | Description | Usage | Working
 ---------|-------------|-------|---------
-`$dice` | This function will generate a random number from 1 to 6, similar a dice. **Require use in #bot-commands channel.** | `$dice` | No
-`$8ball` `$8b` | This function generates a response between: **yes**, **no** or **maybe**. **Require use in #bot-commands channel.** | `$8ball <message>` | No
-`$cat` `$meow` | This function shows a random cat image. **Require use in #bot-commands channel.** | `$cat` | No
+`$dice` | This function will generate a random number from 1 to 6, similar a dice. **Requires use in #bot-commands channel.** | `$dice` | No
+`$8ball` `$8b` | This function generates a response between: **yes**, **no** or **maybe**. **Requires use in #bot-commands channel.** | `$8ball <message>` | No
+`$cat` `$meow` | This function shows a random cat image. **Requires use in #bot-commands channel.** | `$cat` | No
 
 >SERVER
 
-`$donate`| This function shows a random cat image. **Require use in #bot-commands channel.** | `$cat` | No
+Commands | Description | Usage | Working
+---------|-------------|-------|---------
+`$donate`| This function shows a redirect link to you donate, to help our work. **Can be used on any channel.** | `$donate` | No
 
 [img]: https://cdn.discordapp.com/attachments/359090812723658783/376457929097740289/Join_Discord.png
