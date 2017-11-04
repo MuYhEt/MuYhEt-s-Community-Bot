@@ -64,7 +64,7 @@ Commands | Description | Usage | Working
 ## ADMIN COMMANDS
 Commands | Description | Usage | Working
 ---------|-------------|-------|---------
-`$mute`| This function will mute a user on the server **You must be a support or administrator on the server (Requires use on #console).** | `$blue` | no
+`$mute`| This function will mute a user on the server **You must be a support or administrator on the server (Requires use on #console).** | `$blue` | No
 
 
 
