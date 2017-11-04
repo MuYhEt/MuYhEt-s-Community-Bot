@@ -5,11 +5,11 @@
 - [COMMAND LIST](https://github.com/MuYhEt/MuYhEt-s-Community-Bot#command-list)
 
 ## COMMANDS
-
-## COMMAND LIST
 **Help**
 - [x] Working.
 - [ ] Not Working.
+
+> COMMAND LIST
 
 
 
