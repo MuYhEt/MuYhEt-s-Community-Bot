@@ -5,4 +5,5 @@
 **REMEMBER!** Prefix: `$`
 
 **Command List**
-`PING` - _This function checks the response time of the bot_.
+
+- [x] Ping - _This function checks the response time of the bot_.
