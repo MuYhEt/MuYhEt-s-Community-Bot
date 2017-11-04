@@ -29,3 +29,9 @@ Commands | Description | Usage | Working
 `$donate`| This function shows a redirect link to you donate, to help our work. **Can be used on any channel.** | `$donate` | No
 
 [img]: https://cdn.discordapp.com/attachments/359090812723658783/376457929097740289/Join_Discord.png
+
+>ROLES
+
+Commands | Description | Usage | Working
+---------|-------------|-------|---------
+`$blue`| This function shows a redirect link to you donate, to help our work. **Requires Mee6 level 1 and #roles channel.** | `$blue` | Yes
