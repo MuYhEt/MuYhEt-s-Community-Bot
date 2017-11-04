@@ -2,7 +2,7 @@
 ## This bot was made for use in a [Discord](https://discord.gg/Tn9dbKT) community, being private!
 
 ## GUIDE
-- [COMMAND LIST](https://github.com/MuYhEt/MuYhEt-s-Community-Bot#command-list)
+- [COMMAND LIST](#commands)
 
 ## COMMANDS
 > USEFUL COMMANDS
