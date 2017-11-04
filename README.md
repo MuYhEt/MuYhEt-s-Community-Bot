@@ -60,4 +60,12 @@ Commands | Description | Usage | Working
 `$white` | This function will give you a role with the color white, this changing the color of your name. **You must be active on the server (Requires use on #bot).** | `$white` | No
 `$black` | This function will give you a role with the color black, this changing the color of your name. **You must be active on the server (Requires use on #bot).** | `$black` | No
 
+
+## ADMIN COMMANDS
+Commands | Description | Usage | Working
+---------|-------------|-------|---------
+`$mute`| This function will give you a role with the color blue, this changing the color of your name. **You must be active on the server (Requires use on #bot).** | `$blue` | no
+
+
+
 [img]: https://cdn.discordapp.com/attachments/359090812723658783/376457929097740289/Join_Discord.png
