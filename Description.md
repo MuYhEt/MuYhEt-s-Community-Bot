@@ -1,4 +1,3 @@
-#Hello!
-
 # MuYhEt's-Community-Bot
-a bot lol
+This bot was made for use in a Discord community, being private!
+
