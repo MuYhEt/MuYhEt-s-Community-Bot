@@ -7,3 +7,4 @@
 ## COMMAND LIST
 
 - [x] Ping - _This function checks the response time of the bot_.
+- [ ] Dice - _This function generates a random number from 1 to 6, similar a dice_.
